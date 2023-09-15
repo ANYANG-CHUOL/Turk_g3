@@ -1,24 +1,30 @@
 header{
     background-color: green;
     width: 100%;
-    height: 17vh;
-    position: fixed;
+    height: 15vh;
+    align-items: center;
+    justify-content: baseline; 
+    
 }
   body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-  }  
+    background-color: lightgreen;
+    overflow-y: scroll;
+
+  }
+  
 .text{
     display: flex;
     padding-left: 35%;
-    gap: 10px;text-align: center;
+    gap: 10px;
+    text-align: center;
 }
 .G3{
     color: white;
     font-size: 40px;
     padding-top: 18px;
-    display: flex;
 
 }
 footer{
@@ -31,9 +37,43 @@ footer{
     text-align: center;
     height: 15vh;
 }
-.list{
+ul>li{
     display: flex;
+    justify-content: space-between;
+    height: 10px;
 }
-li{
-    display: flex;
+.gut{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  height: 100%;
+  border-right: 1px solid  green;
+  flex: 0.2;
+  border-right: 2px;
+  padding-left: 10px;
+  padding-top: 20px;
+
+  
+}
+.ggg{
+  height: 100%;
+  border-right: 1px solid green;
+}
+.con{
+  flex: 0.5;
+}
+.more{
+  flex: 0.3;
+  padding: 70px;
+  padding-top: 10px;
+  border-right: 1px solid gray;
+
+}
+.more ul>li{
+  padding: 35px;
+  padding-top: 1px;
+}
+li:hover{
+  background-color: darkgreen;
 }
