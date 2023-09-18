@@ -78,7 +78,7 @@ ul>li{
 }
 .con{
   flex: 0.5;
-  grid-column: inherit;
+
 }
 .more{
   flex: 0.3;
