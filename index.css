@@ -3,7 +3,8 @@ header{
     width: 100%;
     height: 15vh;
     align-items: center;
-    justify-content: baseline; 
+    justify-content: baseline;
+    position: fixed; 
     
 }
   body{
@@ -13,18 +14,25 @@ header{
     background-color: lightgreen;
     overflow-y: scroll;
 
+
   }
   
 .text{
     display: flex;
-    padding-left: 35%;
+    padding-left: 25%;
     gap: 10px;
     text-align: center;
+    position: fixed;
+    word-wrap: break-word;
+    
 }
 .G3{
     color: white;
     font-size: 40px;
     padding-top: 18px;
+    position: fixed;
+    padding-left: 35%;
+    
 
 }
 footer{
@@ -45,6 +53,7 @@ ul>li{
 .gut{
   display: flex;
   justify-content: space-between;
+  padding-top: 100px;
 }
 .menu{
   height: 100%;
@@ -56,24 +65,37 @@ ul>li{
 
   
 }
+.kk{
+  display: grid;
+}
 .ggg{
+  padding: 35px;
+  padding-top: 10px;
   height: 100%;
   border-right: 1px solid green;
+  position: fixed;
+  
 }
 .con{
   flex: 0.5;
+  grid-column: inherit;
 }
 .more{
   flex: 0.3;
   padding: 70px;
   padding-top: 10px;
   border-right: 1px solid gray;
+  position: relative;
 
 }
-.more ul>li{
+.more a{
+  display: block;
   padding: 35px;
   padding-top: 1px;
+  color: black;
+  overflow-y: auto;
+  
 }
-li:hover{
+a:hover{
   background-color: darkgreen;
 }
